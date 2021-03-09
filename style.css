@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'Open Sans';
+    src: url(../fonts/OpenSans.woff2) format('woff2'),
+         url(../fonts/OpenSans.woff);
+}
+
+body {
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 18px;
+    color: white;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(16,135,159,1) 0%, rgba(63,77,135,1) 49%, rgba(38,158,182,1) 100%);
+}
+
+.jokes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+button {
+    background-color: rgb(124, 164, 252);
+    color: white;
+    border: 0;
+    border-radius: 3px;
+ }
